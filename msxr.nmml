@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<app title="msxr" file="msxr" main="Main" version="0.0.1" company="jarnik" />
+	
+	<window width="320" height="240" fps="30" orientation="portrait" resizable="true" if="web" />
+	<window width="0" height="0" fps="30" orientation="landscape" fullscreen="true" unless="web" />
+ 	
+	<set name="BUILD_DIR" value="export" />
+	
+	<!--<setenv name="no_console" value="1" />-->
+	
+	<classpath name="src" />
+	
+	<assets path="assets" include="*.mod" />
+	
+	<haxelib name="nme" />
+	<haxelib name="flixel"/>
+</project>

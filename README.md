@@ -19,3 +19,7 @@ GUI
  - Save .it
  - Play/Stop
  - seekbar
+
+PLATFORMS
+ - build flash version, put it on msxr.net
+ - make downloadables for linux, win

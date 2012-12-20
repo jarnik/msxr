@@ -12,6 +12,7 @@
 	<classpath name="src" />
 	
 	<assets path="assets" include="*.mod" />
+	<assets path="assets" include="*.it" />
 	
 	<haxelib name="nme" />
 	<haxelib name="flixel"/>

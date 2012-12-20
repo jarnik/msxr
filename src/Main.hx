@@ -46,7 +46,8 @@ class Main extends Sprite {
 	MikMod.Init(null);
 	TrackerEventDispatcher.addEventListener(TrackerLoadingEvent.TYPE,onTrackerLoading);
 	//Player.LoadBytes(haxe.Resource.getBytes("mylittle.mod").getData(),32,false);
-	Player.LoadBytes(Assets.getBytes("assets/mylittle.mod"),32,false);
+	//Player.LoadBytes(Assets.getBytes("assets/mylittle.mod"),32,false);
+	Player.LoadBytes(Assets.getBytes("assets/music.it"),32,false);
    }
 
 
